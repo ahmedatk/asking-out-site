@@ -1,0 +1,60 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+    margin: 0;
+    overflow: hidden;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.typewriter {
+    overflow: hidden;
+    border-right: .15em solid #000;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 2s steps(30, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+button {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+.rose-animation {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
